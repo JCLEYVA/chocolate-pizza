@@ -1,0 +1,126 @@
+body {
+    width: 900px;
+    align-self: center;
+}
+
+body>header>.head {
+    display: block;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+    margin-top:10px;
+}
+body>header strong {
+    font-size: .75em;
+}
+
+body>header>nav, 
+body>header>nav>ul {
+    float: right;
+    position: relative;
+    top: 6px;
+}
+
+
+.nav-header-left {
+    display: inline-block;
+    position:relative;
+}
+
+left img {
+    display: inline-block;
+
+}
+
+
+
+.nav-header-left-delicious {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+
+.quote {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.right {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    margin-left: 412px;
+}
+
+.h2 {
+
+
+}
+
+header {
+    border-bottom: thick;
+    border-bottom-style: ridge;
+    border-bottom-color: grey;
+    border-width: 3px;
+}
+
+#chocolate-pizza-title {
+
+
+}
+
+p {
+    text-indent: 30px;
+}
+
+.recipe {
+    background-image: url(images/list-bg.png);
+    
+}
+
+main li {
+    list-style-type: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+
+#list1, #list2{
+    list-style: none;
+    display: inline-block;
+  }
+
+
+#list1{
+    margin: 10;
+
+
+}
+
+#list2 {
+    margin: 0x;
+
+}
+
+#button {
+    background: hwb(15 37% 20%);
+    color: white;
+    padding: 9px 36px;
+    display: inline-block;
+  }
+
+
+input[type=checkbox]:checked + label {
+  color: black;
+  text-decoration: line-through;
+}
+  
+
+.authorinfo {
+    display: inline-block;
+    margin-top: 25px;
+  }
+
