@@ -7,13 +7,14 @@ body>header>.head {
     display: block;
     font-family: 'Yellowtail', cursive;
     font-size: 2em;
-    margin-top:10px;
+    margin-top: 10px;
 }
+
 body>header strong {
     font-size: .75em;
 }
 
-body>header>nav, 
+body>header>nav,
 body>header>nav>ul {
     float: right;
     position: relative;
@@ -23,10 +24,10 @@ body>header>nav>ul {
 
 .nav-header-left {
     display: inline-block;
-    position:relative;
+    position: relative;
 }
 
-left img {
+.left img {
     display: inline-block;
 
 }
@@ -34,27 +35,54 @@ left img {
 
 
 .nav-header-left-delicious {
-  display: inline-block;
-  margin-bottom: 0;
-  margin-top: 0;
-
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
 }
+
+
 
 
 .quote {
+    position: relative;
+    font-family: 'Sue Ellen Francisco';
     margin: 0;
     margin-bottom: 0;
+    font-size: 10px;
+    color: darkgrey
 }
 
-.right {
-    display: inline-block;
-    position: relative;
-    list-style-type: none;
-    margin-left: 412px;
+#nav-header-right {
+    float: right;
+}
+
+.print-icon {
+    float: right;
+    position: right;
+    color: lightgrey;
+ 
+}
+
+.PRINT {
+    font-size: 10px;
+}
+
+.light-grey-font {
+    color: lightgrey;
+    text-indent: none;
+}
+
+.h1 {
+    font-family: 'Fanklin Gothic Medium', Arial, sans-serif;
+
 }
 
 .h2 {
-
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
 
 }
 
@@ -66,17 +94,17 @@ header {
 }
 
 #chocolate-pizza-title {
-
-
+    font-family: 'Roboto' , Bold;
+    font-size: 24px
 }
 
 p {
     text-indent: 30px;
+    font-size: 12px;
 }
 
 .recipe {
     background-image: url(images/list-bg.png);
-    
 }
 
 main li {
@@ -95,21 +123,33 @@ nav li {
 
 
 #list1{
-    margin: 10;
-
-
+    list-style: none;
+    margin-top:;
+    margin-left: 10px;
+    margin-right: px;
 }
 
 #list2 {
-    margin: 0x;
+    float: right;
+    margin-left: px;
+    margin-top: -137px;
+    margin-right: 150px;
 
+}
+
+.margins {
+    margin: -5px;
+   
 }
 
 #button {
     background: hwb(15 37% 20%);
     color: white;
-    padding: 9px 36px;
+    padding: 9px 30px;
     display: inline-block;
+    align-content: right;
+    float: right;
+    
   }
 
 
@@ -118,9 +158,19 @@ input[type=checkbox]:checked + label {
   text-decoration: line-through;
 }
   
+.footerborder {
+    position: center;
+    color: lightgrey;
+    width: 900px;
+    
+}
 
 .authorinfo {
     display: inline-block;
     margin-top: 25px;
   }
 
+.allrightsreserved {
+    text-align: center;
+    color: lightgrey;
+}
